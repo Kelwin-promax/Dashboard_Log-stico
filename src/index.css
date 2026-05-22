@@ -1,0 +1,14 @@
+@import "tailwindcss";
+
+@theme {
+  --color-scania-blue: #041e42;
+  --color-scania-red: #d71921;
+}
+
+/* O Tailwind v4 usa o @apply assim agora: */
+@layer base {
+  body {
+    background-color: var(--color-slate-50);
+    color: var(--color-slate-900);
+  }
+}
